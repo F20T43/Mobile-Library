@@ -1,1 +1,4 @@
+CCID    USERNAME
+weixi   XXX3CCC
+
 
