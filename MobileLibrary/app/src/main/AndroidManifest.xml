@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BorrowerLogin"></activity>
+        <activity android:name=".UserProfile"></activity>
+        <activity android:name=".BorrowerList" />
+        <activity android:name=".OwnerList" />
+        <activity android:name=".BorrowerLogin" />
         <activity android:name=".OwnerLogin" />
         <activity android:name=".MainActivity">
             <intent-filter>
