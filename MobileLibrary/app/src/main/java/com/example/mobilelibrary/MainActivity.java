@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Owner = (Button) findViewById(R.id.signin);
+        Owner = (Button) findViewById(R.id.Signin);
         Borrower = (Button) findViewById(R.id.signup);
 
         Owner.setOnClickListener(new View.OnClickListener() {

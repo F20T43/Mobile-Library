@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 public class Profile extends AppCompatActivity {
 
     Button Edit, Logout;
@@ -19,27 +21,31 @@ public class Profile extends AppCompatActivity {
         Edit = (Button) findViewById(R.id.edit);
         Logout = (Button) findViewById(R.id.log_out);
 
-
-
-
-        Edit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent edit_intent = new Intent(Profile.this,EditProfile.class);
+        BottomNavigationView navigation = findViewById(R.id.bottom_navigation);
+        navigation.setOnNavigationItemSelectedListener(new BottomNavigation(this));
+        navigation.setSelectedItemId(R.id.profile);
 
 
 
 
-                edit_intent.putExtra(       );
+        //Edit.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
+                //Intent edit_intent = new Intent(Profile.this,EditProfile.class);
+
+
+
+
+                //edit_intent.putExtra(       );
 
 
 
 
 
                 // Go to onActivityResult method
-                startActivityForResult(edit_intent, 1);
-            }
-        });
+                //startActivityForResult(edit_intent, 1);
+           // }
+        //});
 
 
     }

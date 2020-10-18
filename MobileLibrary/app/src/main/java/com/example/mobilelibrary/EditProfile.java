@@ -28,9 +28,9 @@ public class EditProfile extends AppCompatActivity {
 
 
 
-        Save.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        //Save.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
 
 
 
@@ -38,12 +38,12 @@ public class EditProfile extends AppCompatActivity {
 
 
 
-                Intent new_intent = new Intent();
+               // Intent new_intent = new Intent();
 
                 // Pass the data back to Profile
-                new_intent.putExtra(          );
-                setResult(RESULT_OK, new_intent);
-                finish();
+                //new_intent.putExtra(          );
+               // setResult(RESULT_OK, new_intent);
+                //finish();
 
 
 
@@ -55,7 +55,7 @@ public class EditProfile extends AppCompatActivity {
 
 
 
-            }
-        });
+           // }
+        //});
     }
 }
