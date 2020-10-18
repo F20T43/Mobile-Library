@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Owner = (Button) findViewById(R.id.owner);
-        Borrower = (Button) findViewById(R.id.borrower);
+        Owner = (Button) findViewById(R.id.signin);
+        Borrower = (Button) findViewById(R.id.signup);
 
         Owner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, OwnerLogin.class);
+                Intent i = new Intent(MainActivity.this, SignIn.class);
                 startActivity(i);
             }
         });
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Borrower.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, BorrowerLogin.class);
+                Intent i = new Intent(MainActivity.this, SignUp.class);
                 startActivity(i);
             }
         });

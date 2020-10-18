@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class OwnerList extends AppCompatActivity {
+public class BorrowerBook extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_owner_list);
+        setContentView(R.layout.activity_borrower_book);
     }
 }
