@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/EditBookLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_gradient">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Add Book"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/REQUESTED"
+        android:textSize="30dp" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/newProfileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/icon_addpic" />
+
+    <TextView
+        android:id="@+id/addProfileImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/profilePhoto"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/AddBookTitle"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints="true"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="TITLE"
+        android:textColorHint="@color/light_grey"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/AddBookAuthor"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints="true"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="AUTHOR"
+        android:inputType="textPersonName"
+      android:textColorHint="@color/light_grey"/>
+
+    <EditText
+        android:id="@+id/AddBookISBN"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints="true"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/isbn"
+        android:inputType="text"
+        android:textColorHint="@color/light_grey"/>
+
+    <EditText
+        android:id="@+id/AddBookDesc"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="true"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:minLines="4"
+        android:maxLines="4"
+        android:isScrollContainer="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddBookISBN" />
+    <RatingBar
+        android:id="@+id/rating_bar_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:progressBackgroundTint="@color/colorAccentBlue"
+        android:progressTint="@color/gold"
+        android:isIndicator="true"
+        android:rating="2.5"
+        android:secondaryProgressTint="@color/Transparent"
+        android:stepSize="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/AddBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorAccentBlue"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="ADD"
+        android:textSize="14sp"
+        />
+</LinearLayout>
+</LinearLayout>

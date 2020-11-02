@@ -1,0 +1,2 @@
+# Referenced at /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:26
+-keep class com.example.demo.login.MyApplication { <init>(); }

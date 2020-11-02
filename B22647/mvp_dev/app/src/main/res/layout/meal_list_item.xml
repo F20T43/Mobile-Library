@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp" >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    <ImageView
+        android:id="@+id/image_view"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/my_fill"
+
+        />
+    <TextView android:id="@+id/tv_text_id"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:gravity="center_vertical|right"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:textSize="16sp"
+        android:text="ID："
+        android:visibility="gone"/>
+    <TextView android:id="@+id/tv_id"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:text="未分配"
+        android:layout_toRightOf="@id/tv_text_id"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tv_text_id"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+    <TextView android:id="@+id/tv_name"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_marginRight="5dip"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_below="@id/tv_text_id"
+        android:layout_alignLeft="@id/tv_text_id"
+        android:layout_marginBottom="5dip"
+        android:textSize="16sp"
+        android:text="name："      />
+    <TextView android:id="@+id/et_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_name"
+        android:layout_alignTop="@id/tv_name"
+        android:hint="Bob"
+        android:gravity="center|left"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dip"/>
+    <TextView android:id="@+id/tv_price"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_marginRight="5dip"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_below="@id/tv_name"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_marginBottom="5dip"
+        android:textSize="16sp"
+        android:text="Topic："      />
+    <TextView android:id="@+id/et_topic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_price"
+        android:layout_alignTop="@id/tv_price"
+        android:hint="Compare"
+        android:inputType="number|phone"
+        android:paddingLeft="20dip"/>
+    <TextView android:id="@+id/tv_grade"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_marginRight="5dip"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_below="@id/tv_price"
+        android:layout_alignLeft="@id/tv_price"
+        android:layout_marginBottom="5dip"
+        android:textSize="16sp"
+        android:text="Grade："      />
+    <TextView android:id="@+id/et_grade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_grade"
+        android:layout_alignTop="@id/tv_grade"
+        android:hint="Compare"
+        android:inputType="number|phone"
+        android:paddingLeft="20dip"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

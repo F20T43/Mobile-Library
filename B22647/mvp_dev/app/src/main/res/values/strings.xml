@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--other-->
+    <string name="rmb">¥</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="register">注册</string>
+    <string name="get_code">获取验证码</string>
+    <string name="reset_get">重新获取</string>
+    <string name="verify_phone">验证手机号</string>
+    <string name="verify">验证</string>
+    <string name="finish">完成</string>
+    <string name="income">收入</string>
+    <string name="cost">支出</string>
+    <string name="save">保存</string>
+    <string name="money_normal">0.00</string>
+    <string name="say_something">说点什么吧&#8230;</string>
+    <string name="cur_month_cost">当月支出</string>
+    <string name="cur_month_income">当月收入</string>
+    <string name="icon">头像</string>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="phone">电话</string>
+    <string name="email">邮箱</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="not_set">未设置</string>
+    <string name="year">岁</string>
+    <string name="setting">设置</string>
+    <string name="welcome">Welcome to use\n Math App</string>
+    <!--Loading-->
+    <string name="load_msg">正在加载中&#8230;</string>
+    <string name="load_update">正在修改中&#8230;</string>
+    <string name="load_delete">正在删除中&#8230;</string>
+    <string name="load_send_code">正在发送验证码&#8230;</string>
+    <string name="load_verify">正在验证中&#8230;</string>
+    <string name="load_switch">正在切换中&#8230;</string>
+    <string name="load_login">正在登录中&#8230;</string>
+    <string name="load_sign">正在注册中&#8230;</string>
+
+
+    <!--about activity-->
+    <string name="about">关于Bmob在线登录</string>
+    <string name="about_introduce">实时管理用户状态\n\n
+        ------主要功能------\n\n
+        - 支持手机号，邮箱注册\n
+        - 支持手机验证码注册登录，邮箱激活登录n
+        - 支持账号手机号，密码修改\n
+        - 支持头像自我设定\n
+        - 支持主题颜色变换\n
+    </string>
+    <string name="about_introduce2">ps:请勿在软件中填写个人隐私信息</string>
+    <string name="app_name_with_introduce">Bmob登录demo</string>
+    <string name="developers">开发人员:zhouass666\n
+        -------------------\n
+
+        \n-------------------\n
+        欢迎大家star和fork
+    </string>
+
+    <string name="login">mobile library</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="emailaddress">Email</string>
+    <string name="resister">Register</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="ratingheader">Select a rating for . . .</string>
+    <string name="username_tag">\@username</string>
+    <string name="rate">rate</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="mybooks">My Books</string>
+    <string name="borrow">Borrow</string>
+    <string name="heading">Heading</string>
+    <string name="notifications">Notice</string>
+    <string name="author">description/statuses/current</string>
+    <string name="rating">Rating</string>
+    <string name="details">Details</string>
+    <string name="requests">Requests</string>
+    <string name="accept">accept</string>
+    <string name="deny">deny</string>
+    <string name="borrowed">borrowed</string>
+    <string name="accepted">accepted</string>
+    <string name="requested">requested</string>
+    <string name="borrowing">Borrowing</string>
+    <string name="title">BOOK</string>
+    <string name="status">status</string>
+    <string name="available">available</string>
+    <string name="lent">lent</string>
+    <string name="logout">logout</string>
+    <string name="myprofile">My Profile</string>
+    <string name="scaninfo">scan info</string>
+    <string name="isbn">ISBN</string>
+    <string name="description">Description</string>
+    <string name="save_button">Save Button</string>
+    <string name="img_carousel">Image Carousel</string>
+    <string name="name">User\'s Name</string>
+    <string name="ownerRating">Owner Rating</string>
+    <string name="borrowerRating">Borrower Rating</string>
+    <string name="contactInfo">Contact Information</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoidHltb29yZSIsImEiOiJjanNxbDVsNGIxOTk3NGFwOXpkY3gwczFqIn0.V5q6lH_Wy9kmkepqc17m_A</string>
+    <string name="profilePhoto">上传照片</string>
+    <string name="upload">upload</string>
+    <string name="addImage">Add Image</string>
+    <string name="snack_bar_text">Book Deleted</string>
+    <string name="snack_bar_undo">UNDO</string>
+    <string name="scan_now">Scan now</string>
+    <string name="requestbutton">Request</string>
+    <string name="approve_button_msg">Approve</string>
+    <string name="deny_button_msg">Deny</string>
+    <string name="return_button">Return</string>
+    <string name="lend_button">lend</string>
+    <string name="returned_button">returned</string>
+    <string name="noImageText">This book has no images</string>
+    <string name="password_prompt">Please enter your password to update profile</string>
+    <string name="owned_by_username">Owned by: </string>
+    <string name="goodreads_api_key">rLCWLYxCEDQEmnJywZrwVA</string>
+    <string name="pickupLocation">Pick-up Location</string>
+    <string name="pending_book">Pending on another user\'s action</string>
+    <string name="selectLocation">Select Location</string>
+    <string name="submitLocation">Submit Location</string>
+    <string name="handoffLocation">Handoff Location</string>
+    <string name="viewHandoffLocation">View Handoff Location</string>
+    <string name="local">local photo</string>
+    <string name="photo">take photo</string>
+    <string name="cancel">Cancel</string>
+    <dimen name="orderitem_space">40dip</dimen>
+    <string name="notice">Title \n
+    Notifiction content  \n
+    slide for more</string>
+</resources>

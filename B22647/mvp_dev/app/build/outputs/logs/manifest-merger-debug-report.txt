@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/ff2d3840d4b18c393e63493f6e04f25e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/71c76781d3d60c5ef3ec96eb50650d3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/b6621a600a703dcd22714c6d0c2b3e05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/56232eb127347f247ce77558de92ad90/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/5efb6702504f4a005f0a741a202b2092/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/668f565ea547194fc97785605908eb98/AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/115bc9f69e3e4b7127b4525fd8aacf7e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/ccf554978a066e20baab0d4b322ea0f4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:palette-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/3ed883c66d5da06df756550bef9c4065/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/b81570c5bc96d5bfba3d6749bc39335a/AndroidManifest.xml:2:1-7:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c574cbd2e5de81f5515822e657e93bf0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/d04a3f1d1ab3ba722d459a7bf7b2b2e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/37c59f72ef6f6ffe5aaa3f07dd50da01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/e0085b18a556ea1e92e535db0f0dc617/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c98163ef76dca25339b016b567d7e329/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/4128fd0e25f0f56c7b5fd8c5717cbb8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/4b2167ddc3bc2f0e5e56c972a5ddb512/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/f51b07c5d65475d661507b277c536627/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/7f4ca7dab33995c2199c733b0bf689bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/94ec025867dfab9d3f6488a551cc51de/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/27daca252a8d49461c0f7d0de58e4d90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/a03136ca1d6a7f3b2d567070cc54bdd5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/927865102c6c5beac9aaa1fe342259e8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/74af71ac79caea25a298fbb0baaed3fa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/6abb8f355f9b796f6748df3910fce7c5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/e6f1d031c79088a3194c5becd154530e/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:1-53:12
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:16:5-64
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:16:22-62
+application
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:19:5-51:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/56232eb127347f247ce77558de92ad90/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/56232eb127347f247ce77558de92ad90/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/115bc9f69e3e4b7127b4525fd8aacf7e/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/115bc9f69e3e4b7127b4525fd8aacf7e/AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c574cbd2e5de81f5515822e657e93bf0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c574cbd2e5de81f5515822e657e93bf0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/94ec025867dfab9d3f6488a551cc51de/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/94ec025867dfab9d3f6488a551cc51de/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:22:9-44
+	android:allowBackup
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:20:9-60
+activity#com.example.demo.login.ui.activity.SigninActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:26:9-33:20
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:26:19-83
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:31:27-74
+activity#com.example.demo.login.ui.activity.SignupActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:34:9-35:52
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:34:19-83
+activity#com.example.demo.login.ui.activity.HomeActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:36:9-37:58
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:36:19-81
+activity#com.example.demo.login.ui.activity.AddBooksActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:38:9-39:58
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:38:19-85
+activity#com.example.demo.login.ui.activity.OrderBookActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:40:9-41:58
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:40:19-86
+activity#com.example.demo.login.ui.activity.SearchUserActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:42:9-43:58
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:42:19-87
+activity#com.example.demo.login.ui.activity.EditUserActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:44:9-45:58
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:44:19-85
+activity#com.example.demo.login.ui.activity.SearchBookActivity
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:46:9-47:58
+	android:theme
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:46:19-87
+provider#cn.bmob.v3.util.BmobContentProvider
+ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:48:9-50:82
+	android:authorities
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:50:13-79
+	android:name
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml:49:13-63
+uses-sdk
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/ff2d3840d4b18c393e63493f6e04f25e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/ff2d3840d4b18c393e63493f6e04f25e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/71c76781d3d60c5ef3ec96eb50650d3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/71c76781d3d60c5ef3ec96eb50650d3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/b6621a600a703dcd22714c6d0c2b3e05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/b6621a600a703dcd22714c6d0c2b3e05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/56232eb127347f247ce77558de92ad90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/56232eb127347f247ce77558de92ad90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/5efb6702504f4a005f0a741a202b2092/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/5efb6702504f4a005f0a741a202b2092/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/668f565ea547194fc97785605908eb98/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/668f565ea547194fc97785605908eb98/AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/115bc9f69e3e4b7127b4525fd8aacf7e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/115bc9f69e3e4b7127b4525fd8aacf7e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/ccf554978a066e20baab0d4b322ea0f4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/ccf554978a066e20baab0d4b322ea0f4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:palette-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/3ed883c66d5da06df756550bef9c4065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/3ed883c66d5da06df756550bef9c4065/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/b81570c5bc96d5bfba3d6749bc39335a/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/b81570c5bc96d5bfba3d6749bc39335a/AndroidManifest.xml:5:5-43
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c574cbd2e5de81f5515822e657e93bf0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c574cbd2e5de81f5515822e657e93bf0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/d04a3f1d1ab3ba722d459a7bf7b2b2e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/d04a3f1d1ab3ba722d459a7bf7b2b2e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/37c59f72ef6f6ffe5aaa3f07dd50da01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/37c59f72ef6f6ffe5aaa3f07dd50da01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/e0085b18a556ea1e92e535db0f0dc617/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/e0085b18a556ea1e92e535db0f0dc617/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c98163ef76dca25339b016b567d7e329/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/c98163ef76dca25339b016b567d7e329/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/4128fd0e25f0f56c7b5fd8c5717cbb8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/4128fd0e25f0f56c7b5fd8c5717cbb8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/4b2167ddc3bc2f0e5e56c972a5ddb512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/4b2167ddc3bc2f0e5e56c972a5ddb512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/f51b07c5d65475d661507b277c536627/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/f51b07c5d65475d661507b277c536627/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/7f4ca7dab33995c2199c733b0bf689bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/7f4ca7dab33995c2199c733b0bf689bd/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/94ec025867dfab9d3f6488a551cc51de/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/94ec025867dfab9d3f6488a551cc51de/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/27daca252a8d49461c0f7d0de58e4d90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/27daca252a8d49461c0f7d0de58e4d90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/a03136ca1d6a7f3b2d567070cc54bdd5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/a03136ca1d6a7f3b2d567070cc54bdd5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/927865102c6c5beac9aaa1fe342259e8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/927865102c6c5beac9aaa1fe342259e8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/74af71ac79caea25a298fbb0baaed3fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/74af71ac79caea25a298fbb0baaed3fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/6abb8f355f9b796f6748df3910fce7c5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/6abb8f355f9b796f6748df3910fce7c5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/e6f1d031c79088a3194c5becd154530e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/chengweixi/.gradle/caches/transforms-2/files-2.1/e6f1d031c79088a3194c5becd154530e/AndroidManifest.xml:20:5-44
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chengweixi/Downloads/B22647/B22647/mvp_dev/app/src/main/AndroidManifest.xml

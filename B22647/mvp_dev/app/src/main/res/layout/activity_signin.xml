@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grey_gradient">
+    <TextView
+        android:id="@+id/loginHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/login"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/poppins_semibold"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="MOBILE  LIBRARY"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/REQUESTED"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/input_username"
+        android:layout_width="295dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="@string/username"
+        android:textColorHint="@color/light_grey"
+        android:textColor="@color/black"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/light_grey"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorAccentBlue"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/signin"
+        android:textSize="14sp"
+        android:onClick="signInOnClick"/>
+
+    <Button
+        android:id="@+id/link_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/REQUESTED"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/signup"
+        android:textSize="14sp"
+        android:onClick="signUpOnClick"/>
+
+</LinearLayout>

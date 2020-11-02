@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">MobileLibrary</string>
-    <string name="home">home</string>
-    <string name="profile">profile</string>
-    <string name="borrow">borrow</string>
-    <string name="notification">notification</string>
-</resources>

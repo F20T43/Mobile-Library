@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="outsideInset" >
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+            >
+        <ImageView
+            android:id="@+id/image_view"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_library"
+            />
+        <TextView android:id="@+id/tv_text_id"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:textSize="16sp"
+            android:text="ID："
+            android:visibility="gone"/>
+        <TextView android:id="@+id/tv_id"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/orderitem_space"
+            android:layout_toRightOf="@id/tv_text_id"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_text_id"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+        <TextView android:id="@+id/tv_user"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/orderitem_space"
+            android:layout_marginLeft="20dip"
+            android:layout_below="@id/tv_text_id"
+            android:layout_alignLeft="@id/tv_text_id"
+            android:layout_marginBottom="5dip"
+            android:gravity="center|left"
+            android:textSize="16sp"
+            android:text="Title"
+             />
+        <TextView android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/orderitem_space"
+            android:layout_toRightOf="@id/tv_user"
+            android:layout_alignTop="@id/tv_user"
+            android:layout_marginTop="10dip"
+            android:paddingLeft="10dip"/>
+
+        <TextView android:id="@+id/tv_car"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/orderitem_space"
+            android:layout_marginLeft="20dip"
+            android:layout_below="@id/tv_user"
+            android:layout_alignLeft="@id/tv_text_id"
+            android:gravity="center|left"
+            android:layout_marginBottom="5dip"
+            android:textSize="16sp"
+            android:text="ISBN"
+            />
+        <TextView android:id="@+id/tv_issbn"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/orderitem_space"
+            android:layout_toRightOf="@id/tv_car"
+            android:layout_alignBottom="@id/tv_car"
+            android:layout_alignTop="@id/tv_car"
+            android:layout_marginTop="10dip"
+            android:paddingLeft="10dip"/>
+
+        <TextView android:id="@+id/tv_name"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/orderitem_space"
+            android:layout_marginLeft="20dip"
+            android:layout_below="@id/tv_car"
+            android:layout_alignLeft="@id/tv_text_id"
+            android:layout_marginBottom="5dip"
+            android:textSize="16sp"
+            android:gravity="center|left"
+            android:text="Author："      />
+
+        <TextView android:id="@+id/tv_author"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/orderitem_space"
+            android:layout_toRightOf="@id/tv_name"
+            android:layout_marginTop="10dip"
+            android:layout_alignTop="@id/tv_name"
+            android:layout_alignBottom="@id/tv_name"
+            android:paddingLeft="10dip"/>
+
+        <TextView android:id="@+id/tv_rec_name_impl"
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:gravity="center_vertical|left"
+            android:layout_marginLeft="10dip"
+            android:layout_below="@id/tv_name"
+            android:layout_marginBottom="5dip"
+            android:textSize="16sp"
+            android:text="Description："      />
+        <TextView android:id="@+id/tv_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_toRightOf="@id/tv_rec_name_impl"
+            android:layout_alignTop="@id/tv_rec_name_impl"
+            android:paddingLeft="20dip"/>
+        <TextView android:id="@+id/tv_rec_phone_impl"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:gravity="center_vertical|left"
+            android:layout_below="@+id/tv_rec_name_impl"
+            android:layout_alignLeft="@+id/tv_rec_name_impl"
+            android:layout_marginBottom="5dip"
+            android:textSize="16sp"
+            android:text="Owner："      />
+        <TextView android:id="@+id/tv_owner"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_toRightOf="@id/tv_rec_phone_impl"
+            android:layout_alignTop="@id/tv_rec_phone_impl"
+            android:paddingLeft="10dip"/>
+
+        <TextView android:id="@+id/tv_rec_addr_impl"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:gravity="center_vertical|right"
+            android:layout_toRightOf="@+id/image_view"
+            android:layout_below="@id/tv_rec_phone_impl"
+            android:layout_alignLeft="@id/tv_rec_phone_impl"
+            android:layout_marginBottom="5dip"
+            android:textSize="16sp"
+            android:text="Address："      />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_rec_addr_impl"
+            android:layout_alignTop="@id/tv_rec_addr_impl"
+            android:background="@drawable/address"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tv_rec_addr_impl">
+        <Button
+            android:id="@+id/AddBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="211dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorAccentBlue"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+
+            android:text="BORROW"
+            android:textSize="14sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
