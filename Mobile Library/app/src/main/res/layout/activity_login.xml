@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_background">
+
+    <TextView
+        android:id="@+id/loginHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/popins"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SignInButton"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/light_grey"
+        android:fontFamily="@font/popins"
+        android:text="@string/signin"
+        android:textSize="14sp"
+        app:backgroundTint="@color/light_grey"
+        app:cornerRadius="40dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/SignUpButton"
+        app:layout_constraintEnd_toStartOf="@+id/SignUpButton"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="signInOnClick"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SignUpButton"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/medium_grey"
+        android:fontFamily="@font/popins"
+        android:onClick="signUpOnClick"
+        android:text="@string/signup"
+        android:textSize="14sp"
+        app:backgroundTint="@color/medium_grey"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SignInButton" />
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="541dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="190dp">
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/uname"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/upassword"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
