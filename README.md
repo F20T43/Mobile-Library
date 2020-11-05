@@ -1,6 +1,6 @@
 # 301Project
 
-![app](https://github.com/CMPUT301F20T43/301Project/blob/master/doc/301%20pj%202.png)
+![app](https://github.com/CMPUT301F20T43/301Project/blob/master/doc/301%20pj3.png)
 A simple, attractive, and easy-to-use Android application to satisfy the following goals. 
 
 We want a mobile application that allows owners to record the books they have and loan them to borrowers.
