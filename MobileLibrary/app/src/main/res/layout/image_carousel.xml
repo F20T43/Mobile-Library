@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/AddBookCarouselLayout"
+    android:gravity="center"
+    android:paddingBottom="30dp">
+
+    <ImageButton
+        android:id="@+id/SaveBookButton"
+        style="@android:style/Widget.Material.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@android:color/transparent"
+        android:elevation="5dp"
+        android:contentDescription="@string/save_button"
+        app:srcCompat="@android:drawable/ic_menu_save" 
+        android:onClick="saveBookOnClick"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bookImagesRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        tools:listitem="@layout/book_image_list_item" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addBookImageButton"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/addImage"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="@color/light_grey"
+        app:cornerRadius="40dp"
+        app:icon="@drawable/ic_add_white_24dp" />
+
+</LinearLayout>

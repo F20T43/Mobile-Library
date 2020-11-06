@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_books"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="@string/mybooks" />
+    <item
+        android:id="@+id/borrow"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:title="@string/borrow" />
+
+    <item
+        android:id="@+id/notice"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:title="@string/notice" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_perm_identity_24"
+        android:title="@string/profile" />
+</menu>
