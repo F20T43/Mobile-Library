@@ -19,26 +19,28 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_semibold"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal"
             android:text="@string/mybooks"
             android:textAlignment="center"
             android:textColor="@color/status_color"
-            android:textSize="30sp"
-            android:gravity="center_horizontal" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/addBookButton"
             android:layout_width="108dp"
-            android:layout_height="50dp"
+            android:layout_height="35dp"
             android:layout_marginLeft="145dp"
+            android:background="@drawable/bt_shape"
             android:text="Add Book"
+            android:fontFamily="@font/aclonica"
             app:backgroundTint="@color/button_color"
             tools:ignore="HardcodedText,RtlHardcoded" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/ownerBooksRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="480dp"
+            android:layout_height="460dp"
             tools:listitem="@layout/book_list_item" />
 
         <android.widget.HorizontalScrollView

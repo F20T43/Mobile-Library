@@ -287,10 +287,10 @@ public class BorrowersBooksActivity extends AppCompatActivity {
         if (requestCode == SEARCH) {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
-                Toast.makeText(this, "BOOK SEARCHED 🤪", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "BOOK SEARCHED", Toast.LENGTH_SHORT).show();
             }
         } else {
-            Toast.makeText(this, "SOMETHING WONG MY FRIEND", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "ERROR!", Toast.LENGTH_SHORT).show();
         }
     }
 

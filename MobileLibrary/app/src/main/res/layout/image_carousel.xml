@@ -35,14 +35,14 @@
         style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/light_grey"
+        android:background="@color/notification"
         android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
         android:text="@string/addImage"
         android:textColor="@color/white"
         android:textSize="14sp"
-        app:backgroundTint="@color/light_grey"
+        app:backgroundTint="@color/notification"
         app:cornerRadius="40dp"
-        app:icon="@drawable/ic_add_white_24dp" />
+        app:icon="@drawable/ic_baseline_arrow_upward_24" />
 
 </LinearLayout>

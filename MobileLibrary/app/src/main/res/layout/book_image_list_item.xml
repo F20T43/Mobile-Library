@@ -26,8 +26,8 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@android:drawable/ic_delete"
-        app:civ_border_color="@color/BORROWED"
-        app:civ_border_width="2dp"
+        app:civ_border_color="@color/delete_noti"
+        app:civ_border_width="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

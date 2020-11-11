@@ -10,7 +10,7 @@
     <string name="lastname">Last Name</string>
     <string name="signin">Sign In</string>
     <string name="signup">Sign Up</string>
-    <string name="ratingheader">Select a rating for . . .</string>
+    <string name="ratingheader">Please rate</string>
     <string name="username_tag">\@username</string>
     <string name="rate">rate</string>
     <string name="notice">Notification</string>
@@ -35,7 +35,7 @@
     <string name="lent">lent</string>
     <string name="logout">logout</string>
     <string name="myprofile">My Profile</string>
-    <string name="scaninfo">scan info</string>
+    <string name="scaninfo">scan</string>
     <string name="isbn">ISBN</string>
     <string name="description">Description</string>
     <string name="save_button">Save Button</string>
@@ -69,4 +69,7 @@
     <string name="viewHandoffLocation">View Handoff Location</string>
     <string name="borrower">Borrower</string>
     <string name="mybooks">mybook</string>
+    <string name="UserName">uid</string>
+    <string name="uid">User Name</string>
+    <string name="MobileLibrary">Mobile Library</string>
 </resources>
