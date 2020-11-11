@@ -135,6 +135,7 @@ public class BorrowersBooksActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, SearchActivity.class);
                 startActivityForResult(intent, SEARCH);
+                overridePendingTransition(0,0);
             }
         });
 

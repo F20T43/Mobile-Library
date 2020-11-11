@@ -180,6 +180,7 @@ public class LoginActivity extends AppCompatActivity {
         if (permissionsAccepted){
             Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
             startActivity(intent);
+            overridePendingTransition(0,0);
         }
         else{
             Toast.makeText(this, "Please accept all permissions to sign up.", Toast.LENGTH_SHORT).show();

@@ -20,6 +20,7 @@
         android:hint="@string/emailaddress"
         android:inputType="textPersonName"
         android:textColorHint="@color/status_color"
+        android:textColor="@color/dark_grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginHeading" />
@@ -51,6 +52,7 @@
         android:hint="@string/password"
         android:inputType="textPassword"
         android:textColorHint="@color/status_color"
+        android:textColor="@color/dark_grey"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

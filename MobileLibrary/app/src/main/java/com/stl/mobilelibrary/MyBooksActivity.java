@@ -148,6 +148,7 @@ public class MyBooksActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, AddBooksActivity.class);
                 startActivityForResult(intent, ADD);
+                overridePendingTransition(0,0);
             }
         });
 
