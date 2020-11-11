@@ -1,7 +1,10 @@
 package com.stl.mobilelibrary;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -35,8 +38,33 @@ public class NotificationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_notification);
 
         BottomNavigationView navigation = findViewById(R.id.bottom_navigation);
-        navigation.setOnNavigationItemSelectedListener(new NavigationHandler(this));
         navigation.setSelectedItemId(R.id.notice);
+        navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.my_books:
+                        startActivity(new Intent(getApplicationContext(), MyBooksActivity.class));
+                        overridePendingTransition(0,0);
+                        break;
+                    case R.id.borrow:
+                        startActivity(new Intent(getApplicationContext(), BorrowersBooksActivity.class));
+                        overridePendingTransition(0,0);
+                        break;
+                    case R.id.notice:
+                        startActivity(new Intent(getApplicationContext(), NotificationActivity.class));
+                        overridePendingTransition(0,0);
+                        break;
+                    case R.id.profile:
+                        Intent intents = new Intent(getApplicationContext(), ProfileActivity.class);
+                        intents.putExtra(ProfileActivity.USER_NAME, CurrentUser.getInstance().getUserName());
+                        startActivity(intents);
+                        overridePendingTransition(0,0);
+                        break;
+                }
+                return true;
+            }
+        });
 
         recyclerView = findViewById(R.id.notification_recycler_view);
         mContext = getApplicationContext();

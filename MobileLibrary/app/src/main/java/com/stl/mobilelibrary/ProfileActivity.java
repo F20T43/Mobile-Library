@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +15,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
@@ -95,7 +97,7 @@ public class ProfileActivity extends AppCompatActivity {
         setContactInfoFieldsEditable(false);
         add_image_button.setVisibility(View.GONE);
 
-        Intent intent = getIntent();
+        final Intent intent = getIntent();
         String userName = intent.getExtras().getString(USER_NAME);
         isUserTheCurrentUser = userName.equals(CurrentUser.getInstance().getUserName());
         if (!isUserTheCurrentUser){
@@ -103,8 +105,33 @@ public class ProfileActivity extends AppCompatActivity {
             navigation.setVisibility(View.GONE);
         }
         else{
-            navigation.setOnNavigationItemSelectedListener(new NavigationHandler(this));
             navigation.setSelectedItemId(R.id.profile);
+            navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+                @Override
+                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                    switch (item.getItemId()){
+                        case R.id.my_books:
+                            startActivity(new Intent(getApplicationContext(), MyBooksActivity.class));
+                            overridePendingTransition(0,0);
+                            break;
+                        case R.id.borrow:
+                            startActivity(new Intent(getApplicationContext(), BorrowersBooksActivity.class));
+                            overridePendingTransition(0,0);
+                            break;
+                        case R.id.notice:
+                            startActivity(new Intent(getApplicationContext(), NotificationActivity.class));
+                            overridePendingTransition(0,0);
+                            break;
+                        case R.id.profile:
+                            Intent intents = new Intent(getApplicationContext(), ProfileActivity.class);
+                            intents.putExtra(ProfileActivity.USER_NAME, CurrentUser.getInstance().getUserName());
+                            startActivity(intents);
+                            overridePendingTransition(0,0);
+                            break;
+                    }
+                    return true;
+                }
+            });
         }
         setUser(userName);
 

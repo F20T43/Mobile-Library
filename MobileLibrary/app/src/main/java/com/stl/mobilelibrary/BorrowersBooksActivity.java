@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -24,7 +25,7 @@ import java.util.ArrayList;
 
 /**
  * This activity is where borrowers can see and filter all of the books they are interested in.
- * This includes books they have requested, are currently borrowing, or have been approved to borrow
+ * It includes books they have requested, are currently borrowing, or have been approved to borrow
  */
 public class BorrowersBooksActivity extends AppCompatActivity {
     public static final String TAG = BorrowersBooksActivity.class.getSimpleName();
@@ -97,8 +98,33 @@ public class BorrowersBooksActivity extends AppCompatActivity {
         });
 
         BottomNavigationView navigation = findViewById(R.id.bottom_navigation);
-        navigation.setOnNavigationItemSelectedListener(new NavigationHandler(this));
         navigation.setSelectedItemId(R.id.borrow);
+        navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.my_books:
+                        startActivity(new Intent(getApplicationContext(), MyBooksActivity.class));
+                        overridePendingTransition(0,0);
+                        break;
+                    case R.id.borrow:
+                        startActivity(new Intent(getApplicationContext(), BorrowersBooksActivity.class));
+                        overridePendingTransition(0,0);
+                        break;
+                    case R.id.notice:
+                        startActivity(new Intent(getApplicationContext(), NotificationActivity.class));
+                        overridePendingTransition(0,0);
+                        break;
+                    case R.id.profile:
+                        Intent intents = new Intent(getApplicationContext(), ProfileActivity.class);
+                        intents.putExtra(ProfileActivity.USER_NAME, CurrentUser.getInstance().getUserName());
+                        startActivity(intents);
+                        overridePendingTransition(0,0);
+                        break;
+                }
+                return true;
+            }
+        });
 
         searchBookButton.setOnClickListener(new View.OnClickListener() {
             /**
