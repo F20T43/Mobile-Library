@@ -12,21 +12,21 @@
         style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/AVAILABLE"
-        android:fontFamily="@font/poppins"
+        android:fontFamily="@font/aclonica"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:textColor="@color/white"
         android:text="@string/returned_button"
+        android:textColor="@color/white"
 
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>

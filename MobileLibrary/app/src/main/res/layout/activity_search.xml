@@ -33,14 +33,14 @@
                 style="@style/Base.Theme.MaterialComponents"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins"
-                android:hint="@android:string/search_go"
-                android:drawableRight="@drawable/ic_search_white_24dp"
-                android:textAlignment="viewStart"
-                android:textSize="24sp"
                 android:layout_marginStart="8dp"
+                android:drawableRight="@drawable/ic_search_white_24dp"
+                android:fontFamily="@font/architects_daughter"
+                android:hint="@android:string/search_go"
+                android:imeOptions="actionDone"
                 android:singleLine="true"
-                android:imeOptions="actionDone" />
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
 
         </LinearLayout>
 

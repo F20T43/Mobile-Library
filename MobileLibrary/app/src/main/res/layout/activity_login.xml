@@ -18,10 +18,10 @@
         android:ems="10"
         android:fontFamily="@font/homemade_apple"
         android:hint="@string/emailaddress"
-        android:textStyle="bold"
         android:inputType="textPersonName"
         android:textColor="@color/dark_grey"
         android:textColorHint="@color/status_color"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginHeading" />

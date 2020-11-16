@@ -74,7 +74,8 @@
                 android:layout_marginBottom="11dp"
                 android:onClick="addImageOnClick"
                 android:src="@drawable/ic_baseline_arrow_upward_24"
-                app:civ_border_color="@color/BORROWED"
+                app:civ_border_color="@color/light_yellow"
+                app:civ_circle_background_color="@color/light_yellow"
                 app:civ_border_width="3dp"
                 app:layout_constraintBottom_toTopOf="@+id/myProfileUsername"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -105,6 +106,7 @@
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/architects_daughter"
                 android:text="@string/username_tag"
+                android:textStyle="bold"
                 android:textColor="@color/status_color"
                 android:textSize="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -116,19 +118,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/myProfileUsername">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
                     android:layout_marginEnd="16dp"
-                    android:layout_marginRight="16dp">
+                    android:layout_marginRight="16dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/ownerRatingLabel"
@@ -136,7 +140,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aclonica"
                         android:text="@string/ownerRating"
-                        android:textColor="@color/white"
+                        android:textColor="@color/status_color"
                         android:textSize="18sp" />
 
                     <RatingBar
@@ -147,16 +151,16 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="8dp"
                         android:numStars="5"
-                        android:progressTint="@color/REQUESTED"
-                        android:rating="3" />
+                        android:progressTint="@color/button_color"
+                        android:rating="3.5" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp">
+                    android:layout_marginLeft="16dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/borrowerRatingLabel"
@@ -164,7 +168,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/aclonica"
                         android:text="@string/borrowerRating"
-                        android:textColor="@color/white"
+                        android:textColor="@color/status_color"
                         android:textSize="18sp" />
 
                     <RatingBar
@@ -175,15 +179,15 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="8dp"
                         android:numStars="5"
-                        android:progressTint="@color/REQUESTED"
-                        android:rating="2.5" />
+                        android:progressTint="@color/button_color"
+                        android:rating="3.5" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="24dp"
                 android:background="@drawable/rounded_rectangle"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -191,17 +195,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-                <TextView
-                    android:id="@+id/contactInfoLabel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="20dp"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:textColor="@color/white"
-                    android:textSize="12sp" />
 
                 <LinearLayout
                     android:id="@+id/emailLayout"
@@ -226,6 +219,18 @@
                         android:textSize="18sp" />
                 </LinearLayout>
 
+                <TextView
+                    android:id="@+id/contactInfoLabel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -248,6 +253,18 @@
                         android:textColor="@color/status_color"
                         android:textSize="18sp" />
                 </LinearLayout>
+
+                <TextView
+                    android:id="@+id/contactInfoLabel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/logoutButton"

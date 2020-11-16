@@ -21,14 +21,14 @@
             android:id="@+id/title_element"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
             android:text="@string/title"
-            android:textSize="24dp"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            android:fontFamily="@font/poppins_semibold"
-            app:layout_constraintTop_toTopOf="@id/corners"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="24dp"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textAlignment="center" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/corners" />
 
 
         <ImageButton
@@ -55,22 +55,25 @@
             android:id="@+id/author_element"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/title_element"
+            android:fontFamily="@font/architects_daughter"
             android:text="@string/author"
+            android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="18sp"
             android:textColor="@color/white"
-            android:fontFamily="@font/poppins" />
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/title_element" />
+
         <TextView
             android:id="@+id/owner_user_name_element"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/author_element"
+            android:fontFamily="@font/architects_daughter"
             android:text="@string/owned_by_username"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:textStyle="bold"
             android:textColor="@color/notification"
-            android:fontFamily="@font/poppins" />
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/author_element" />
 
         <View
             android:id="@+id/owner_user_name_bottom_divider"
@@ -95,14 +98,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
-            android:fontFamily="@font/poppins_semibold"
+            android:fontFamily="@font/aclonica"
             android:text="@string/rating"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rating_top_divider"
-            tools:layout_editor_absoluteY="354dp" />
+            app:layout_constraintTop_toBottomOf="@+id/rating_top_divider" />
 
 
         <RatingBar
@@ -114,7 +116,7 @@
             android:progressBackgroundTint="@color/faded_magenta"
             android:progressTint="@color/gold"
             android:isIndicator="true"
-            android:rating="2.5"
+            android:rating="3"
             android:secondaryProgressTint="@color/Transparent"
             android:stepSize="0.5"
             app:layout_constraintEnd_toEndOf="parent"
@@ -135,15 +137,16 @@
             android:id="@+id/book_details_heading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/rating_bar_element"
-            app:layout_constraintStart_toStartOf="parent"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/description"
-            android:textColor="@color/white"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
-            android:textSize="18sp" />
+            android:fontFamily="@font/architects_daughter"
+            android:text="@string/description"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rating_bar_element" />
 
 
         <EditText
