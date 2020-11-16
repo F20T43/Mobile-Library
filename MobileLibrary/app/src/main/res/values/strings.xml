@@ -62,7 +62,7 @@
     <string name="owned_by_username">Owned by: </string>
     <string name="goodreads_api_key">rLCWLYxCEDQEmnJywZrwVA</string>
     <string name="pickupLocation">Pick-up Location</string>
-    <string name="pending_book">Pending on another user\'s action</string>
+    <string name="pending_book">Pending on actions</string>
     <string name="selectLocation">Select Location</string>
     <string name="submitLocation">Submit Location</string>
     <string name="handoffLocation">Handoff Location</string>

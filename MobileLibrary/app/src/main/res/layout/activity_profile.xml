@@ -107,7 +107,7 @@
                 android:fontFamily="@font/architects_daughter"
                 android:text="@string/username_tag"
                 android:textStyle="bold"
-                android:textColor="@color/status_color"
+                android:textColor="@color/button_color"
                 android:textSize="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

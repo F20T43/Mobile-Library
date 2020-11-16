@@ -18,7 +18,8 @@
 
             <include
                 layout="@layout/add_book"
-                android:layout_height="474dp" />
+                android:layout_height="474dp"
+                />
         </LinearLayout>
     </ScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

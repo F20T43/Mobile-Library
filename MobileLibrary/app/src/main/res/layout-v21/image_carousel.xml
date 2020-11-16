@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:id="@+id/AddBookCarouselLayout"
     android:gravity="center"
+    android:background="@drawable/background"
     android:paddingBottom="30dp">
 
     <ImageButton
@@ -35,8 +36,8 @@
         style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/notification"
-        android:fontFamily="@font/poppins_semibold"
+        android:background="@drawable/bt_shape"
+        android:fontFamily="@font/aclonica"
         android:gravity="center"
         android:text="@string/addImage"
         android:textColor="@color/white"

@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:id="@+id/AddBookCarouselLayout"
     android:gravity="center"
+    android:background="@drawable/background"
     android:paddingBottom="30dp">
 
     <ImageButton

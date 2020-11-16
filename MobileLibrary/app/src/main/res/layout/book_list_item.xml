@@ -38,6 +38,7 @@
                 android:fontFamily="@font/architects_daughter"
                 android:maxLength="20"
                 android:maxLines="1"
+                android:textStyle="bold"
                 android:text="@string/author"
                 android:textColor="@color/faded_magenta"
                 android:textSize="18sp" />
@@ -62,6 +63,7 @@
             android:textColor="@color/highlight"
             android:fontFamily="@font/architects_daughter"
             android:textSize="18sp"
+            android:textStyle="bold"
             android:layout_marginStart="8dp"
             android:maxLines="1"
             android:maxLength="20"
