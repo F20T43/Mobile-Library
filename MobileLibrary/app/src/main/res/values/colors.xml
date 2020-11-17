@@ -13,10 +13,10 @@
     <color name="light_grey">#9B9B9B</color>
     <color name="magenta">#3F51B5</color>
     <color name="faded_magenta">#E464E4</color>
-    <color name="ACCEPTED">#DA3B71</color>
+    <color name="ACCEPTED">#03A9F4</color>
     <color name="AVAILABLE">#3CB340</color>
-    <color name="REQUESTED">#3CA1F1</color>
-    <color name="BORROWED">#CD49E4</color>
+    <color name="REQUESTED">#E91E63</color>
+    <color name="BORROWED">#EA6941</color>
     <color name="highlight">@color/ACCEPTED</color>
     <color name="gold">#FFDF00</color>
     <color name="Transparent">#00000000</color>

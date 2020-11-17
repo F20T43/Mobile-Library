@@ -15,7 +15,7 @@
         android:fontFamily="@font/architects_daughter"
         android:text="@string/username"
         android:textStyle="bold"
-        android:textColor="@color/highlight"
+        android:textColor="@color/faded_magenta"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

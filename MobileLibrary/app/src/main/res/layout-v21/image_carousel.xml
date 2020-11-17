@@ -20,7 +20,7 @@
         android:contentDescription="@string/save_button"
         android:elevation="5dp"
         android:onClick="saveBookOnClick"
-        app:srcCompat="@android:drawable/ic_menu_save" />
+        app:srcCompat="@drawable/ic_baseline_save_24" />
 
 
     <androidx.recyclerview.widget.RecyclerView
