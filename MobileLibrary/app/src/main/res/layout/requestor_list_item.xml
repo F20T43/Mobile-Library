@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="50dp"
     android:id="@+id/requestor_list_parent_view">
 
 
@@ -24,21 +24,26 @@
     <Button
         android:id="@+id/approve_button_id"
         android:layout_width="80dp"
-        android:layout_height="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bt_shape"
         android:backgroundTint="@color/AVAILABLE"
         android:fontFamily="@font/aclonica"
         android:text="@string/approve_button_msg"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/deny_button_id"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
 
     <Button
         android:id="@+id/deny_button_id"
         android:layout_width="80dp"
-        android:layout_height="50dp"
+        android:layout_height="30dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/declined_red"
+        android:background="@drawable/bt_shape"
         android:fontFamily="@font/aclonica"
         android:text="@string/deny_button_msg"
         android:textSize="10dp"
